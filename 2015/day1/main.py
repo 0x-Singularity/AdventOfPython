@@ -3,8 +3,6 @@ content = file.read()
 
 current_floor, position = 0,0
 
-#comment for git push
-
 for char in content:
     position+=1
     if char == "(":
